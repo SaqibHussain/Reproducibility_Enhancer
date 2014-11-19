@@ -26,7 +26,7 @@ The following script can be used to set up networking between compute nodes to e
 The REMOTE_IP variable must be set to the relevant remote IP address for the node which will be communicated with.
 The BRIDGE_ADDRESS must be a unique adress, preferably sequential, which will be assigned to the docker0 interface
 
-# The 'other' host
+- The 'other' host
 REMOTE_IP=192.168.1.5
 # Name of the bridge
 BRIDGE_NAME=docker0
