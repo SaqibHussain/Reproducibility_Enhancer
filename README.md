@@ -27,10 +27,15 @@ The REMOTE_IP variable must be set to the relevant remote IP address for the nod
 The BRIDGE_ADDRESS must be a unique adress, preferably sequential, which will be assigned to the docker0 interface
 
 - The 'other' host
+
 REMOTE_IP=192.168.1.5
-# Name of the bridge
+
+- Name of the bridge
+
 BRIDGE_NAME=docker0
-# Bridge address
+
+- Bridge address
+
 BRIDGE_ADDRESS=172.16.42.1/24
 
 
