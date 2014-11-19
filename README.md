@@ -5,17 +5,17 @@ This project was created as part of my Thesis undertaken at Cranfield University
 
 The thesis title was: Improving the Reproducibility of Parallel Computation Experiments using Docker Containers.
 
+![alt tag](https://raw.githubusercontent.com/SaqibHussain/Reproducibility_Enhancer/master/ui.png)
+
+
 
 Abstract
 -----
-
 In recent years, shifts in funding priorities in academia have caused many scientists to adopt a ``publish or perish'' attitude and publish research results that are not of the highest quality, and a number of high-profile retractions have lead to a crisis in public confidence in scientific research. Scientists and programmers from an extensive range of professions including but not limited to neuroscience and computer science are appealing for a better, more refined paradigm by which new research or findings are submitted into the scientific community, while some have already taken on initiatives to improve the repeatability and reproducibility of experiments and analysis, particularly when these are computationally driven. Currently, the most prominent methods for addressing these issues are through the use of virtualisation, typically with virtual machines which suffer from huge hypervisor overheads and lengthy boot times. Within this contest, an easy to use graphical user interface application is proposed which uses Docker, a version-controlled container management system created by and for the web development community, to improve the reproducibility of parallel scientific experiments. The Linux-kernel based containers managed by Docker provide many of the capabilities offered by virtual machine technology in terms of operating system isolation and resource management, but with minimal overheads and near-native performance. The application aims to reduce the drawbacks of virtual machines, provide as much automation as possible to incentivize its use and provide an efficient mechanism for someone else to reproduce the original results of an experiment by outputting configuration files which can be loaded into any instance of the application to re-run the exact original experiment automatically.
 
 
-
 Instructions for running the Reproducbility Enhancer application
-=====
-
+-----
 The application is written in Java and can be opened with any suitable IDE, it must be run from a linux machine on the same network as the compute nodes.
 
 Before running the application, it is necessary to set up networking and dependancies on compute nodes.
